@@ -1,0 +1,2 @@
+account = '********@naver.com'
+password = '*******'
