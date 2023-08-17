@@ -22,7 +22,7 @@ rfm = pd.read_csv('./rfm.csv')
 # st.dataframe(rfm)
 
 with row3_1:
-    st.header("Customer Segnemtation")
+    st.header("Customer Segmentation")
     fig = px.treemap(df, values='Count', path=['label'])
     # fig.update_layout(title_text="Customer Segnemtation", title_x=0.4)
     st.plotly_chart(fig)
