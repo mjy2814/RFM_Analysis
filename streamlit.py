@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import smtplib, ssl
 from email.mime.text import MIMEText
-import my_naver_account as naver 
+# import my_naver_account as naver 
 import datetime
 
 st.set_page_config(page_title="뚜기뚜기마케터스", layout="wide")
@@ -129,7 +129,8 @@ with row4_1:
 with row4_2:
     if option3 != []:
         if option3[0] == '신규 고객':
-            email = st.text_area('                ', '신규고객 타켓 메시지')
+            email = st.text_area('                ', ' 🎉 오뚜기몰에 오신 것을 환영합니다! 🚂\n ooo님의 오뚜기몰 회원가입을 축하드립니다.\n항상 좋은 서비스로 고객님이 만족하실 수 있도록 노력하겠습니다.\n\
+회원가입 감사 20% 쿠폰을 발급해 드렸으니,MY COUPON 페이지를 통해서 확인하시길 바랍니다.\n쿠폰 확인하기>(빨간색)')
         elif option3[0] == '충성 고객':
             email = st.text_area('                  ', '충성고객 타켓 메시지')
         elif option3[0] == '잠재적 충성고객':
